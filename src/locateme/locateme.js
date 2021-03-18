@@ -24,3 +24,5 @@ const onError = error => {
 const locate = () => {
   navigator.geolocation.getCurrentPosition(onSuccess, onError);
 };
+
+export { locate };
